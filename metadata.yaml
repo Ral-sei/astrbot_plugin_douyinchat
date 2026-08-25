@@ -2,7 +2,7 @@ name: astrbot_plugin_douyinchat
 display_name: 抖音私信
 desc: 将抖音网页版私信作为消息平台接入 AstrBot，基于 Playwright 自动化收发文本与图片。
 version: v0.1.0
-author: Ral_sei
+author: Ral_sei，Ox Alpha
 repo: https://github.com/Ral-sei/astrbot_plugin_douyinchat
 support_platforms:
   - douyin
