@@ -18,6 +18,16 @@
 playwright install chromium
 ```
 
+3.安装依赖
+假设是基于 Debian/Ubuntu 的容器，在容器里执行
+```bash
+apt-get install -y \
+    libglib2.0-0 libnss3 libnspr4 libdbus-1-3 libatk1.0-0 \
+    libatk-bridge2.0-0 libcups2 libdrm2 libxkbcommon0 \
+    libxcomposite1 libxdamage1 libxfixes3 libxrandr2 \
+    libgbm1 libpango-1.0-0 libcairo2 libasound2
+```
+
 ## 配置
 
 在 WebUI「平台适配器」中添加「抖音」实例：
